@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/*  
+font-family: 'Orbitron', sans-serif;
+*/
+
 /*
 ===============
 global styling
 =============== 
 */
-
 
 *{
     margin: 0;
@@ -56,6 +61,7 @@ input{
     border: none;
     color: gray;
     padding: 20px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 input:focus{
@@ -66,7 +72,6 @@ input:focus{
 .btns{
     display: grid;
     grid-template-columns: repeat(4,70px);
-    /* border: 2px solid black; */
 }
 
 button{
@@ -80,6 +85,14 @@ button{
     border-radius: 50px;
     cursor: pointer;
     font-size: 18px;
+}
+
+button:focus{
+    border: none;
+}
+
+.equal{
+    width: 120px;
 }
 
 
