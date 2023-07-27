@@ -31,3 +31,7 @@ let calculate = ()=>{
         outputValue.value = expression;
     }
 }
+
+let del = ()=>{
+    outputValue.value = outputValue.value.slice(0,-1);
+}
